@@ -1,5 +1,5 @@
 # Personal site
-My own personal site, made with HTML, CSS and Javascript.
+My own personal site, made with HTML and CSS.
 
 ## Live demo:
 https://marko-zc.github.io/marko-zc
@@ -7,4 +7,3 @@ https://marko-zc.github.io/marko-zc
 ## Made with:
 - HTML
 - CSS
-- Javascript
