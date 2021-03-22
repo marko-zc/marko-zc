@@ -135,26 +135,25 @@ h2 {
     transform: rotateY(180deg);
   }
 
-.card-back > a > button {
-    height: 50px;
-    width: 200px;
+.card-back > button {
+    overflow: hidden;
     color: black;
     background-color: white;
     text-align: center;
-    padding: 10px 20px;
     transition: all 0.5s;
     cursor: pointer;
     font-size: 20px;
+    padding: 10px 20px;
 }
 
-.card-back > a > button > span {
+.card-back > button > span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
 }
 
-.card-back > a > button > span:after {
+.card-back > button > span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -163,11 +162,11 @@ h2 {
     transition: 0.5s;
   }
 
-.card-back > a > button:hover > span {
+.card-back > button:hover > span {
     padding-right: 25px;
 }
 
-.card-back > a > button:hover > span:after {
+.card-back > button:hover > span:after {
     opacity: 1;
     right: 0;
 }
@@ -179,7 +178,6 @@ h2 {
     margin-bottom: 0;
     font-size: 24px;
     font-weight: bold;
-    /* -webkit-text-stroke: 1px black; */
 }
 
 
@@ -230,9 +228,7 @@ h2 {
     .tech-list {
         display: none;
     }
-    .card-back > a > button {
-        height: 45px;
-        width: 80px;
+    .card-back > button {
         font-size: 12px;
         padding: 0;
     }
