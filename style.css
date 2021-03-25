@@ -135,6 +135,10 @@ h2 {
     color: grey;
 }
 
+.list > li > a {
+    color: #2980b9;
+}
+
 #portfolio {
     display: flex;
     justify-content: space-around;
@@ -246,6 +250,15 @@ h2 {
     font-weight: bold;
 }
 
+#contact-div {
+    text-align: center;
+}
+
+#contact-div > a {
+    font-weight: bold;
+    color: #2980b9;
+}
+
 
 @media only screen and (max-width: 600px){
     header {
@@ -253,6 +266,7 @@ h2 {
         text-align: center;
         height: 25 40px;
         padding: 2px;
+        border-radius: 0;
     }
     #profilePic {
         margin: 5px auto;
@@ -262,6 +276,7 @@ h2 {
     #profilePic > img {
         height: 100px;
         width: 100px;
+        border-radius: 10px;
     }
     h1 {
         margin: 0;
