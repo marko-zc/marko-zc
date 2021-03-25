@@ -12,12 +12,12 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 10px;
-    padding: 5px 2px;
-    padding-bottom: 7px;
+    /* padding: 5px 2px; */
+    /* padding-bottom: 7px; */
     box-shadow: 0px 5px 10px 5px gray;
-    background-color: #2980b9;
+    /* background-color: #2980b9; */
 }
 
 #profile {
@@ -38,10 +38,10 @@ header {
 }
 
 #profilePic > img {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 200px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
 }
 
 h1 {
@@ -49,7 +49,7 @@ h1 {
 }
 
 #links > a {
-    padding-right: 16px;
+    margin-right: 16px;
 }
 
 #links > a > i:hover {
@@ -81,7 +81,7 @@ h1 {
     padding: 5px 0;
     border-radius: 6px;
     top: 120%;
-    right: -20px;
+    right: -37px;
    
     /* Position the tooltip text - see examples below! */
     position: absolute;
@@ -107,8 +107,8 @@ h1 {
 
 
 h2 {
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
+    /* border-top: 1px solid lightgray; */
+    border-bottom: 2px solid lightgray;
     padding: 10px;
     text-align: center;
 }
@@ -123,8 +123,8 @@ h2 {
     color: grey;
 }
 
-#education, #skills {
-    border-top: 1px solid lightgray;
+#education, #skills, #languages {
+    /* border-top: 1px solid lightgray; */
     border-bottom: 1px solid lightgray;
     padding: 10px 15px;
     color: #505050;
