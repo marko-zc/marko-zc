@@ -12,12 +12,6 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    /* border: 1px solid black; */
-    border-radius: 10px;
-    /* padding: 5px 2px; */
-    /* padding-bottom: 7px; */
-    box-shadow: 0px 5px 10px 5px gray;
-    /* background-color: #2980b9; */
 }
 
 #profile {
@@ -38,10 +32,9 @@ header {
 }
 
 #profilePic > img {
-    /* border: 1px solid black; */
     width: 200px;
     height: 200px;
-    border-radius: 10px 0 0 10px;
+    object-fit: cover;
 }
 
 h1 {
